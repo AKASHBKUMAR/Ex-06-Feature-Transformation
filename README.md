@@ -10,24 +10,21 @@ Feature Transformation is a technique by which we can boost our model performanc
 ALGORITHM
 
 STEP 1
-
 Read the given Data
 
 STEP 2
-
 Clean the Data Set using Data Cleaning Process
 
 STEP 3
-
 Apply Feature Transformation techniques to all the features of the data set
 
 STEP 4
-
 Save the data to the file
 
 CODE
 
 Develpoed By    : AKASH KUMAR B
+
 Register Number : 212221040011
 
 import numpy as np
@@ -117,3 +114,46 @@ df['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df[['Moderate Negat
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
 
 plt.show()
+
+
+OUTPUT
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/1.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/2.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/3.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/4.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/5.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/6.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/7.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/8.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/9.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/10.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/11.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/13.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/14.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/15.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/16.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/17.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/18.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/19.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/20.JPG
+
+https://github.com/AKASHBKUMAR/Ex-06-Feature-Transformation/blob/main/21.JPG
