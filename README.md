@@ -41,10 +41,15 @@ df=pd.read_csv("D:\ggg\clg\Documents\SEM 3\Data Science\Projects\Ex-06-Feature-T
 df.head()
 
 df.info()
+
 df.describe()
+
 df.isnull().sum()
+
 df.shape
+
 df.columns
+
 df.duplicated()
 
 sm.qqplot(df['Highly Positive Skew'],fit=True,line='45')
