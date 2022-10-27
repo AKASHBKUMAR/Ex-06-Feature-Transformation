@@ -102,6 +102,7 @@ from sklearn.preprocessing import PowerTransformer
 transformer=PowerTransformer("yeo-johnson")
 df['ModerateNegativeSkew_2']=pd.DataFrame(transformer.fit_transform(df[['Moderate Negative Skew']]))
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
+
 plt.show()
 
 
@@ -109,4 +110,5 @@ from sklearn.preprocessing import QuantileTransformer
 qt = QuantileTransformer(output_distribution = 'normal')
 df['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df[['Moderate Negative Skew']]))
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
+
 plt.show()
